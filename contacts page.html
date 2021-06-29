@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>layout 8</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js">
+
+  </script>
+</head>
+
+<body>
+  <div class="nav">
+    <ul class="first">
+      <li class="l"><a class="navi-bar" href="#"><i class="fas fa-home"></i> HOME</a></li>
+      <li class="l"><a class="navi-bar" href="#"><i class="fas fa-book"></i> OUR MENU</a></li>
+      <li class="l"><a class="navi-bar" href="#"><i class="fas fa-pencil-alt"></i> BLOG</a></li>
+      <li class="l"><a class="navi-bar" href="#"><i class="fas fa-phone-alt"></i> CONTACT US</a></li>
+      <li class="search-bar"> <input class="srch" type="text" name="" placeholder="🛒€0.00 (0 products)">
+        <div class="btn">
+          <a class="sb" href="#"><i class="fas fa-search"></i></a>
+        </div>
+
+
+      </li>
+    </ul>
+
+  </div>
+
+  </div>
+
+  <div class="second">
+    <ul class="logo">
+      <li class="men"> <img src="images/cooker1.png" alt="">
+      </li>
+      <li class="menu"> <a class="ma" href="#">OUR MENU</a> </li>
+      <li class="menu"> <a class="ma" href="#">DRINKS</a> </li>
+      <li class="menu"> <a class="ma" href="#">SANDWICHES</a> </li>
+      <li class="menu"> <a class="ma" href="#">MEALS</a> </li>
+      <li class="menu"> <a class="ma" href="#">SALADS</a> </li>
+      <li class="menu"> <a class="ma" href="#">DESSERTS</a> </li>
+    </ul>
+  </div>
+
+  <img class="br" src="images/la8 (1).png" alt="broccoli image">
+  <p class="this"> <a class="pa" href="#">Home</a>> Contact Us </p>
+
+  <div class="form">
+    <form class="" action="mailto:harshadnawghare@gmail.com" method="post">
+      <div>
+        <label class="yn">Your Name</label>
+        <input class="na" type="text" name="Your Name" value="">
+      </div>
+      <br>
+
+      <div class="">
+        <label class="ye">Your Email</label>
+        <input class="nq" type="text" name="Email" value="">
+      </div>
+      <br>
+
+      <div class="">
+        <label class="su">Subject</label>
+        <input class="nt" type="text" name="Subject" value="">
+      </div>
+      <br>
+
+      <div class="">
+        <label class="ym">Your Message</label>
+        <textarea class="txt" name="name" rows="8" cols="64"></textarea>
+      </div>
+      <br>
+
+      <div class="">
+        <input class="send" type="submit" value="Send">
+      </div>
+    </form>
+  </div>
+
+<div class="para">
+
+
+  <h3 id="p1">Address</h3>
+  <br>
+  <h4 id="p2">Cooker Online Food </h4>
+  <h4 id="p3">101 Timberlachen Circle,Suite 202</h4>
+  <h4 id="p4">Lake Mary, FL 32746</h4>
+  <p id="h1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  <p id="h2">Suspendisse acumsan lectus vel dolor dignissim</p>
+  <p id="h3">laoreet. Nulla sagitis malesuada eros in imoerdiet. Duis</p>
+  <p id="h4">Consequat volutpat dictum</p>
+  <p id="h5">Nulla sagitis malesuada eros in imperdiet. Duis</p>
+  <p id="h6">Nulla sagitis malesuada eros in imperdiet. Duis</p>
+  <p id="h7">consequat volutpdictm. Suspendisse accuseman lectus</p>
+  <p id="h8">vel dolor dignissim laoreet.</p>
+  </p>
+  <hr id="h9">
+  <h3 id="h10">Find Us Here</h3>
+</div>
+
+  <div class="map"></div>
+
+  <script>
+    function initMap() {
+      const uluru = {
+        lat: -25.344,
+        lng: 131.036
+      };
+      const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 14,
+        center: new google.maps.LatLng(48.141277695937596, 11.577585900583259),
+      });
+      const marker = new google.maps.Marker({
+        position: uluru,
+        map: map,
+      });
+    }
+  </script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&libraries=&v=weekly" async>
+
+  </script>
+
+  <div class="link-bar">
+    <h3 id="n1">NEWSLETTER</h3>
+    <p id="n2">Sign-up to our newsletter for a weekly doze of </p>
+
+
+
+    <p id="n3">awesomeness, delivered directly to your inbox</p>
+
+    <div class="bl">
+      <input class="nl" type="text" name="emailnl" placeholder="Your email address">
+    </div>
+
+    <div class="">
+      <input action="mailto:harshadnawghare@gmail.com" class="sup" type="submit" value="SIGN UP">
+    </div>
+
+    <h3 id="l1">FAST LINKS</h3>
+
+
+
+    <a id="l2" href="#">Home</a>
+    <a id="l3" href="#">Our Menu</a>
+    <a id="l4" href="#">Blog</a>
+    <a id="l5" href="#">Contact Us</a>
+
+    <h3 id="l0">CATEGORIES</h3>
+    <a id="l6" href="#">Desserts</a>
+    <a id="l7" href="#">Drinks</a>
+    <a id="l8" href="#">Meals</a>
+    <a id="l9" href="#">Salads</a>
+
+    <h3 id="l10">FOLLOW US ON...</h3>
+    <div class="btn">
+      <a class="fb-an" href="#"><i class="fab fa-facebook"></i> Facebook</a>
+      <a class="tw-an" href="#"><i class="fab fa-twitter"></i> Twitter</a>
+      <a class="gp-an" href="#"><i class="fab fa-google-plus"></i> Gplus</a>
+      <a class="rs-an" href="#"><i class="fas fa-rss"></i> RSS Feed</a>
+    </div>
+    <img class="logo2" src="images/cooker 3.jpg" alt="">
+    <p class="e1">Copyright © 2015 Cooker.All rights reserved</p>
+    <p class="e2">Web Design: Design Mania </p>
+
+    <a href="#"></a>
+
+  </div>
+</body>
+
+</html>
